@@ -15,13 +15,13 @@ Be sure to replace 'YOUR_DOMAIN_NAME_GOES_HERE' with your actual domain name.
 
 ```bash
 docker build -t apache-php:latest .
-````
+```
 
 ## Creating a Container
 
 ```bash
 docker run -d --name apache-php -p 0.0.0.0:1080:80 apache-php:latest
-````
+```
 
 Accessible via:
 
